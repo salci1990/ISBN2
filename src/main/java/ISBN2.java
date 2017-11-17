@@ -15,9 +15,9 @@ public class ISBN2 {
 
     public void odd() {
         for (int i = 0; i < (isbnArr().length) - 1; i++) {
-            int liczba1 = Integer.parseInt(isbnArr()[i]);
-            int liczba2 = Integer.parseInt(isbnArr()[i + 1]);
-            int wynik = liczba2 + liczba1;
+            int l1 = Integer.parseInt(isbnArr()[i]);
+            int l2 = Integer.parseInt(isbnArr()[i + 1]);
+            int wynik = l2 + l1;
             if (wynik % 2 != 1) {
                 System.out.println(wynik + " Parzysta");
             } else
